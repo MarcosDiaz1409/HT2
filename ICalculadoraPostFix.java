@@ -16,5 +16,7 @@ public interface ICalculadoraPostFix{
      * @throws Exception
      */
     public int Calculate(ArrayList postfix_expression) throws Exception;
+    // pre: se tiene un arraylist con los elementos
+    // post: devuelve el resultado despues de realizar todas las operaciones
 
 }

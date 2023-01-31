@@ -59,7 +59,7 @@ public class Stack<T> implements IStack<T>{
 		
 	}
 
-	// Metodo que permite ver el ultimo valor ingresado al stack
+	// Metodo que extrae el primer valor de la pila (hasta arriba de la pila)
 	@Override
 	public T peek() {
 		
