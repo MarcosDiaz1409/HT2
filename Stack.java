@@ -4,7 +4,7 @@
  * Sección: 40
  * Clase que instancia y crea un stack para almacenar numeros
  */
-public abstract class Stack<T> implements IStack<T>{
+public class Stack<T> implements IStack<T>{
 
 	private Nodo<T> top;
 	int count;
